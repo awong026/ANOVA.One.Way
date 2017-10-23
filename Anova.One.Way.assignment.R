@@ -7,9 +7,8 @@ aq <- (airquality)
 
 ###############################################
 
-
-#Question 1: ANoVA on ozone by month. 
-#We want to see if ozone levels are the same for each month
+#Question 1: Anova on Ozone by month. 
+#We want to see if Ozone levels are the same for each month
 
 ##################################################
 
@@ -65,7 +64,7 @@ pairwise.wilcox.test(aq1$Ozone, as.factor(aq1$Month))
 
 ###################################
 
-#Question 2: ANoVA on Solar.R by Month. 
+#Question 2: Anova on Solar.R by Month. 
 #We want to see if Solar.R levels are the same for each month
 
 ####################################
@@ -113,8 +112,8 @@ kruskal.test(aq2$Solar.R ~ as.factor(aq2$Month)) #P value is .1313
 
 ###################################
 
-#Question 3: ANoVA on Wind by Month. 
-#We want to see if Windlevels are the same for each month
+#Question 3: Anova on Wind by Month. 
+#We want to see if Wind levels are the same for each month
 
 ####################################
 
